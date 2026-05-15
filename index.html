@@ -2,140 +2,120 @@
 <html lang="it">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flower SHOP-HOME</title>
-
-    <link rel="stylesheet" href="layout_index.css">
-
-    <!--COLLEGAMENTO CON IL FONT ESTERNO-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
-        rel="stylesheet">
-        <link rel="icon" href="image/logo.png" type="image/png">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centro Anchio | Home</title>
+  <link rel="stylesheet" href="layout_index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
 
-    <!-- NAVBAR E MENU-->
-    <header>
-        <nav>
-            <div class="logo_container"><a href="index.html"><img class="logo" src="image/logo.png"></a></div>
-            <div>
-        <a href="index.html">Home</a>
-        <a href="prodotti.html">Prodotti</a>
-        <a href="#">Chi siamo</a>
+  <!-- NAVBAR -->
+  <header>
+    <nav>
+      <a class="logo" href="index.html">Centro <span>Anchio</span></a>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="locali.html">Spazi</a>
+        <a href="#">Chi Siamo</a>
         <a href="#">Contatti</a>
       </div>
-        </nav>
-    </header>
+    </nav>
+  </header>
 
-    <!-- CONTENUTO -->
-    <main>
-        <h1>Benvenuto nel nostro negozio di fiori</h1>
-        <div class="description_container">
-            <p class="description">Siamo un negozio di fiori dedicato a rendere speciali i momenti più importanti della
-                tua vita.</p>
-            <p class="description">Creiamo composizioni floreali personalizzate per matrimoni, compleanni, anniversari,
-                eventi aziendali e
-                ogni altra occasione in cui vuoi lasciare un’emozione.</p>
-            <p class="description">Ogni bouquet è realizzato con cura, attenzione ai dettagli e soprattutto con fiori
-                freschi selezionati
-                ogni giorno. Crediamo che i fiori siano un linguaggio universale capace di esprimere ciò che le parole
-                non riescono a dire.</p>
+  <main>
 
-            <p class="description">Il nostro team è sempre pronto ad aiutarti nella scelta della composizione perfetta,
-                consigliandoti le
-                soluzioni più adatte ai tuoi gusti e alle tue esigenze.</p>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content fade-in">
+        <p class="hero-label">Centro Commerciale — Spazi in Affitto</p>
+        <h1>Il tuo spazio,<br>la tua opportunità.</h1>
+        <p class="hero-desc">
+          Ambienti moderni per far crescere la tua attività. Retail, uffici, ristorazione.
+        </p>
+        <a href="locali.html" class="btn">Scopri gli Spazi</a>
+      </div>
+    </section>
 
-            <p class="description">
-                Che si tratti di un piccolo pensiero o di un grande evento, siamo qui per trasformare ogni occasione in
-                qualcosa di unico e indimenticabile.</p>
+    <!-- FEATURES -->
+    <section class="features">
+      <h2>Perché sceglierci</h2>
+      <p class="subtitle">Un contesto commerciale d'eccellenza per il tuo business.</p>
+
+      <div class="features-grid">
+
+        <div class="feature-card">
+          <span>📍</span>
+          <h3>Posizione Strategica</h3>
+          <p>In pieno centro urbano, vicino ai trasporti e con parcheggio da 800 posti.</p>
         </div>
 
-
-        <h3>I nostri prodotti:</h3>
-
-        <div class="carousel">
-            <div class="product_container">
-
-
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=1200&q=80"
-                        alt="Bouquet di rose">
-                    <div class="card-content">
-                        <h3>Bouquet di Rose</h3>
-                        <p>Composizione elegante con rose fresche.</p>
-                        <span>€29,90</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551?q=80&w=1200&auto=format&fit=crop"
-                        alt="Tulipani">
-                    <div class="card-content">
-                        <h3>Tulipani</h3>
-                        <p>Colori vivaci per ogni occasione.</p>
-                        <span>€24,90</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?q=80&w=1200&auto=format&fit=crop"
-                        alt="Orchidee">
-                    <div class="card-content">
-                        <h3>Orchidee</h3>
-                        <p>Eleganza naturale per casa e ufficio.</p>
-                        <span>€39,90</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1455659817273-f96807779a8a?q=80&w=1200&auto=format&fit=crop"
-                        alt="Girasoli">
-                    <div class="card-content">
-                        <h3>Girasoli</h3>
-                        <p>Perfetti per dare luce e allegria.</p>
-                        <span>€19,90</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1519378058457-4c29a0a2efac?q=80&w=1200&auto=format&fit=crop"
-                        alt="Peonie">
-                    <div class="card-content">
-                        <h3>Peonie</h3>
-                        <p>Delicate e romantiche.</p>
-                        <span>€34,90</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=1200&auto=format&fit=crop"
-                        alt="Bouquet misto">
-                    <div class="card-content">
-                        <h3>Bouquet Misto</h3>
-                        <p>Una selezione di fiori stagionali.</p>
-                        <span>€44,90</span>
-                    </div>
-                </div>
-
-
-
-            </div>
+        <div class="feature-card">
+          <span>👥</span>
+          <h3>Alto Flusso Visitatori</h3>
+          <p>Oltre 15.000 visitatori al giorno garantiscono visibilità costante.</p>
         </div>
 
+        <div class="feature-card">
+          <span>⚙️</span>
+          <h3>Servizi Inclusi</h3>
+          <p>Sicurezza 24/7, pulizie, fibra ottica e gestione tecnica degli impianti.</p>
+        </div>
 
+      </div>
+    </section>
 
-    </main>
+    <!-- ANTEPRIMA SPAZI -->
+    <section class="preview">
+      <h2>Spazi in Evidenza</h2>
+      <p class="subtitle">Una selezione degli spazi attualmente disponibili.</p>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 Flower SHOP. Tutti i diritti riservati.</p>
-    </footer>
+      <div class="cards-grid">
+
+        <div class="card">
+          <img src="image/locale102.png" alt="Spazio retail" />
+          <div class="card-body">
+            <span class="badge disponibile">Disponibile</span>
+            <h3>Retail Piano Terra</h3>
+            <p class="meta">120 mq · Piano Terra · Vetrina su galleria</p>
+            <p class="price">€ 2.800 / mese</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="image/locale105.png" alt="Ufficio open space" />
+          <div class="card-body">
+            <span class="badge disponibile">Disponibile</span>
+            <h3>Ufficio Open Space</h3>
+            <p class="meta">85 mq · 2° Piano · Vista galleria</p>
+            <p class="price">€ 1.600 / mese</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="image/localeBar.png" alt="Locale ristorazione" />
+          <div class="card-body">
+            <span class="badge trattativa">In Trattativa</span>
+            <h3>Locale Ristorazione</h3>
+            <p class="meta">200 mq · Piano Terra · Canna fumaria</p>
+            <p class="price">€ 4.200 / mese</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="cta-center">
+        <a href="locali.html" class="btn btn-outline">Vedi Tutti gli Spazi →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 <strong>Centro Anchio</strong> · Tutti i diritti riservati.</p>
+  </footer>
 
 </body>
-
 </html>
