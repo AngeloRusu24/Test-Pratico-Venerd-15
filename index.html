@@ -1,90 +1,161 @@
+<!-- =========================================
+     DOCUMENTO HTML PRINCIPALE (HOME PAGE)
+     ========================================= -->
 <!DOCTYPE html>
 <html lang="it">
 
 <head>
+  <!-- encoding caratteri italiani -->
   <meta charset="UTF-8" />
+
+  <!-- rende il sito responsive su mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- titolo della pagina (SEO + tab browser) -->
   <title>Centro Anchio | Home</title>
+
+  <!-- collegamento al CSS principale -->
   <link rel="stylesheet" href="layout_index.css" />
+
+  <!-- font Google (Playfair + Lato) -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
+  <!-- =========================================
+       NAVBAR (menu principale)
+       ========================================= -->
   <header>
     <nav>
-      <a class="logo" href="index.html">Centro <span>Anchio</span></a>
+
+      <!-- logo cliccabile che torna alla home -->
+      <a class="logo" href="index.html">
+        Centro <span>Anchio</span>
+      </a>
+
+      <!-- menu di navigazione -->
       <div class="nav-links">
         <a href="index.html" class="active">Home</a>
         <a href="locali.html">Spazi</a>
         <a href="#">Chi Siamo</a>
         <a href="#">Contatti</a>
       </div>
+
     </nav>
   </header>
 
+  <!-- =========================================
+       CONTENUTO PRINCIPALE
+       ========================================= -->
   <main>
 
-    <!-- HERO -->
+    <!-- =====================================
+         HERO SECTION (prima cosa che si vede)
+         ===================================== -->
     <section class="hero">
+
       <div class="hero-content fade-in">
-        <p class="hero-label">Centro Commerciale — Spazi in Affitto</p>
-        <h1>Il tuo spazio,<br>la tua opportunità.</h1>
+
+        <!-- etichetta piccola sopra titolo -->
+        <p class="hero-label">
+          Centro Commerciale — Spazi in Affitto
+        </p>
+
+        <!-- titolo principale (SEO importante) -->
+        <h1>
+          Il tuo spazio,<br>la tua opportunità.
+        </h1>
+
+        <!-- descrizione breve -->
         <p class="hero-desc">
           Ambienti moderni per far crescere la tua attività. Retail, uffici, ristorazione.
         </p>
-        <a href="locali.html" class="btn">Scopri gli Spazi</a>
+
+        <!-- call to action principale -->
+        <a href="locali.html" class="btn">
+          Scopri gli Spazi
+        </a>
+
       </div>
+
     </section>
 
-    <!-- FEATURES -->
+    <!-- =====================================
+         FEATURES (3 punti di forza)
+         layout a griglia
+         ===================================== -->
     <section class="features">
-      <h2>Perché sceglierci</h2>
-      <p class="subtitle">Un contesto commerciale d'eccellenza per il tuo business.</p>
 
+      <h2>Perché sceglierci</h2>
+      <p class="subtitle">
+        Un contesto commerciale d'eccellenza per il tuo business.
+      </p>
+
+      <!-- GRID: card automatiche responsive -->
       <div class="features-grid">
 
+        <!-- CARD 1 -->
         <div class="feature-card">
           <span>📍</span>
           <h3>Posizione Strategica</h3>
-          <p>In pieno centro urbano, vicino ai trasporti e con parcheggio da 800 posti.</p>
+          <p>In pieno centro urbano, vicino ai trasporti e parcheggi.</p>
         </div>
 
+        <!-- CARD 2 -->
         <div class="feature-card">
           <span>👥</span>
           <h3>Alto Flusso Visitatori</h3>
-          <p>Oltre 15.000 visitatori al giorno garantiscono visibilità costante.</p>
+          <p>Oltre 15.000 visitatori al giorno.</p>
         </div>
 
+        <!-- CARD 3 -->
         <div class="feature-card">
           <span>⚙️</span>
           <h3>Servizi Inclusi</h3>
-          <p>Sicurezza 24/7, pulizie, fibra ottica e gestione tecnica degli impianti.</p>
+          <p>Sicurezza, fibra ottica e gestione tecnica.</p>
         </div>
 
       </div>
     </section>
 
-    <!-- ANTEPRIMA SPAZI -->
+    <!-- =====================================
+         SEZIONE SPAZI IN EVIDENZA
+         ===================================== -->
     <section class="preview">
-      <h2>Spazi in Evidenza</h2>
-      <p class="subtitle">Una selezione degli spazi attualmente disponibili.</p>
 
+      <h2>Spazi in Evidenza</h2>
+      <p class="subtitle">
+        Una selezione degli spazi disponibili.
+      </p>
+
+      <!-- GRID CARD SPAZI -->
       <div class="cards-grid">
 
+        <!-- CARD 1 -->
         <div class="card">
           <img src="image/locale102.png" alt="Spazio retail" />
+
           <div class="card-body">
+
+            <!-- stato disponibilità -->
             <span class="badge disponibile">Disponibile</span>
+
             <h3>Retail Piano Terra</h3>
+
+            <!-- info tecniche -->
             <p class="meta">120 mq · Piano Terra · Vetrina su galleria</p>
+
+            <!-- prezzo -->
             <p class="price">€ 2.800 / mese</p>
+
           </div>
         </div>
 
+        <!-- CARD 2 -->
         <div class="card">
           <img src="image/locale105.png" alt="Ufficio open space" />
+
           <div class="card-body">
             <span class="badge disponibile">Disponibile</span>
             <h3>Ufficio Open Space</h3>
@@ -93,8 +164,10 @@
           </div>
         </div>
 
+        <!-- CARD 3 -->
         <div class="card">
           <img src="image/localeBar.png" alt="Locale ristorazione" />
+
           <div class="card-body">
             <span class="badge trattativa">In Trattativa</span>
             <h3>Locale Ristorazione</h3>
@@ -105,14 +178,20 @@
 
       </div>
 
+      <!-- bottone sotto la griglia -->
       <div class="cta-center">
-        <a href="locali.html" class="btn btn-outline">Vedi Tutti gli Spazi →</a>
+        <a href="locali.html" class="btn btn-outline">
+          Vedi Tutti gli Spazi →
+        </a>
       </div>
+
     </section>
 
   </main>
 
-  <!-- FOOTER -->
+  <!-- =========================================
+       FOOTER (fine pagina)
+       ========================================= -->
   <footer>
     <p>© 2026 <strong>Centro Anchio</strong> · Tutti i diritti riservati.</p>
   </footer>
