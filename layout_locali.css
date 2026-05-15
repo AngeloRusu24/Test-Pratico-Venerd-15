@@ -47,12 +47,7 @@ width: 30%;
 /* CONTENUTO */
 main {
   flex: 1;
-  padding: 20px;
-  background-image: url(image/flower.jpg);
-  background-size: cover;
-  background-position: center;
-  opacity: 0.3;
-
+  padding: 20px; 
 }
 
 /* FOOTER */
@@ -63,54 +58,6 @@ footer {
   padding: 15px;
 }
 
-.contact-form {
-  max-width: 500px;
-  margin: auto;
-  padding: 20px;
-  background: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-
-  /* FONT DIVERSO PER RENDERE IL FORM LEGGIBILE E STANDARD*/
-  font-family: Arial, sans-serif;
-}
-
-.contact-form h2 {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.contact-form label {
-  display: block;
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-}
-
-.contact-form button {
-  width: 100%;
-  margin-top: 15px;
-  padding: 12px;
-  background: #f5d1d1;
-  color: rgb(17, 2, 2) ;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-/* EFFETTO CON IL MOUSE SOPRA, COLORI INVERTITI*/
-.contact-form button:hover {
-  background: rgb(17, 2, 2);
-  color: #f5d1d1;
-}
 
 .description_container{
     padding-top: 40px;
